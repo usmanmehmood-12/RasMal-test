@@ -19,7 +19,7 @@ function App() {
     <div>
       <div style={{ display: 'flex', justifyContent: "center" }}>
         <form onSubmit={handleSubmit}>
-          <input type="text" onChange={(e) => setValue(e.target.value)} />
+          <input placeholder="Add text here" type="text" onChange={(e) => setValue(e.target.value)} />
           <button>Submit</button>
         </form>
       </div>
